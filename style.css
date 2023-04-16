@@ -3,13 +3,21 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #333333;
   top: 0;
   width: 100%;
 }
 
 .navbar-item {
   float: left;
+  padding: 0px;
+  height: 100%;
+}
+
+.dark-mode-item {
+  float: right;
+  padding: 0px;
+  height: 100%;
 }
 
 .navbar-link {
@@ -22,15 +30,15 @@
 
 /* Change the link color to #111 (black) on hover */
 .navbar-link:hover {
-  background-color: #111;
+  background-color: #545454;
 }
 
  .navbar > .active > a {
-  background-color: #04AA6D;
+  background-color: #6CAE75;
 }
 
 .page-title {
-  color: #04AA6D;
+  color: #6CAE75;
   margin: auto;
   width: 50%;
   padding: 1%;
@@ -45,4 +53,20 @@
   width: 25%;
   text-align: left;
   margin: auto;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+#dark-mode-btn {
+  background-color: #333333;
+  color: white;
+  border: none;
+  padding: 14px 16px;
+}
+
+.dark-mode-icon {
+  height: 100%;
 }
